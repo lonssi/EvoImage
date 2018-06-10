@@ -3,6 +3,8 @@
 
 ### What is EvoImage?
 
+![alt text](./example.jpg "Example")
+
 EvoImage is an C++ application that uses a genetic algorithm to reconstruct a reference image using drawing primitives.
 
 The following drawing primitives can be used:
