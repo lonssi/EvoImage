@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+  dev:
+    image: evoimage
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./app:/app
+    environment:
+      - DISPLAY
+    command: bash -c "cd /app && ./build.sh && fish"
+    working_dir: "/app"
